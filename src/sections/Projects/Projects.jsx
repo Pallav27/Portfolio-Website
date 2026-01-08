@@ -12,7 +12,7 @@ function Projects() {
         <ProjectCard
           src={viberr}
           link="https://github.com/Pallav27/Retro-Newspaper"
-          h3="Retro Newspaper"
+          h3="Web Wallet"
           p="Landing Page"
         />
         <ProjectCard
