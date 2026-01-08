@@ -11,21 +11,21 @@ function Projects() {
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={viberr}
-          link="https://github.com/Pallav27/Retro-Newspaper"
+          link="https://www.webwallet.tech/"
           h3="Web Wallet"
-          p="Landing Page"
+          p="Digital Wallet Application"
         />
         <ProjectCard
           src={freshBurger}
-          link="https://github.com/Pallav27/Text-To-Emoji/tree/main/TextToEmojiEncDec"
-          h3="Texmoji"
-          p="Text-to-Emoji Converter"
+          link="https://ticketron.me/"
+          h3="Ticketron"
+          p="Query Management System"
         />
         <ProjectCard
           src={hipsster}
-          link="https://github.com/Pallav27/SignSave"
-          h3="Sign&Save"
-          p="Digital Signature Website"
+          link="https://job-portal-webapp.onrender.com/"
+          h3="JobPortal"
+          p="Job Application Platform"
         />
         
       </div>
