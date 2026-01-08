@@ -1,8 +1,8 @@
 import styles from './ProjectsStyles.module.css';
-import viberr from '../../assets/newspaper.png';
-import freshBurger from '../../assets/face.png';
 import hipsster from '../../assets/sign.png';
 import ProjectCard from '../../common/ProjectCard';
+import webwal from '../../assets/webwal.svg';
+import ticimg from '../../assets/ticimg.png';
 
 function Projects() {
   return (
@@ -10,13 +10,13 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
+          src={webwal}
           link="https://www.webwallet.tech/"
           h3="Web Wallet"
           p="Digital Wallet Application"
         />
         <ProjectCard
-          src={freshBurger}
+          src={ticimg}
           link="https://ticketron.me/"
           h3="Ticketron"
           p="Query Management System"
